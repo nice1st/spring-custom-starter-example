@@ -1,5 +1,7 @@
 rootProject.name = 'cyh-example'
-include 'spring-custom-starter'
-project(':spring-custom-starter').projectDir = file('subproject/custom-starter')
-// include 'first-child'
-// project(':first-child').projectDir = file('subproject/first-child')
+include 'cyh-example-spring-custom-starter'
+project(':cyh-example-spring-custom-starter').projectDir = file('subproject/custom-starter')
+include 'cyh-example-spring-custom-autoconfigure'
+project(':cyh-example-spring-custom-autoconfigure').projectDir = file('subproject/custom-autoconfigure')
+include 'cyh-example-custom-starter-app'
+project(':cyh-example-custom-starter-app').projectDir = file('subproject/custom-starter-app')
