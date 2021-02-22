@@ -4,4 +4,5 @@ dependencies {
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
 	implementation project(':cyh-example-spring-custom-starter')
+	implementation project(':cyh-example-module-properties')
 }

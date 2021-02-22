@@ -9,6 +9,11 @@ jar {
 }
 
 dependencies {
+    // implementation project(':cyh-example-module-controller')
+    // implementation project(':cyh-example-module-properties')
+    implementation fileTree(dir: "${project.rootDir}/subproject/module-controller/build/libs", include: ['*.jar'])
+    implementation fileTree(dir: "${project.rootDir}/subproject/module-properties/build/libs", include: ['*.jar'])
+
     implementation 'org.springframework:spring-web'
     implementation 'org.springframework.boot:spring-boot-autoconfigure'
     implementation 'org.springframework.boot:spring-boot-configuration-processor'

@@ -5,3 +5,8 @@ include 'cyh-example-spring-custom-autoconfigure'
 project(':cyh-example-spring-custom-autoconfigure').projectDir = file('subproject/custom-autoconfigure')
 include 'cyh-example-custom-starter-app'
 project(':cyh-example-custom-starter-app').projectDir = file('subproject/custom-starter-app')
+
+include 'cyh-example-module-properties'
+project(':cyh-example-module-properties').projectDir = file('subproject/module-properties')
+include 'cyh-example-module-controller'
+project(':cyh-example-module-controller').projectDir = file('subproject/module-controller')

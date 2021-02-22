@@ -1,0 +1,11 @@
+{
+  "properties": [
+    {
+      "sourceType": "org.springframework.boot.context.properties.EnableConfigurationProperties",
+      "name": "cyh.name",
+      "type": "java.lang.String",
+      "description": "name"
+    }
+  ]
+}
+  
